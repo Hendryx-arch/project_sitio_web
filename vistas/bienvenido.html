@@ -1,0 +1,73 @@
+<!DOCTYPE html >
+<html lang="es">
+    <head>
+        <title>Bienvenido</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/estilos.css">
+        <script src="/Modal.js" defer></script>
+    </head>
+    <body>
+        <div id="agrupar">
+            <header><h1>pollos hermano</h1></header>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Categoria</a>
+                <ul>
+                    <li><a href="#">Pollos</a></li>
+                    <li><a href="#">Carne</a></li>
+                    <li><a href="#">Cerdo</a></li>
+                    <li><a href="#">Guarniciones</a></li>
+                    <li><a href="#">Postres</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Sucursales</a>
+                <ul id="l2">
+                    <li><a href="#">La Paz</a></li>
+                    <li><a href="#">El alto</a></li>
+                    <li><a href="#">viacha</a></li>
+                    <li><a href="#">oruro</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Acerca de...</a>
+                <ul id="l3">
+                    <li><a href="#">Deliverys</a></li>
+                    <li><a href="#">Pagos</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <button id="open-modal">Cuenta</button>
+        <dialog id="modal">
+        
+            <form action="" method="dialog">
+                Nombre: <input type="text" name="userN"> <br>
+
+                Conotraseña: <input type="text" name="pass"> <br>
+
+                <input type="submit" value="Ingresar">
+                <button id="crear">Crear Cuenta</button>
+            </form>
+               <button id="cerrar-modal">Cancelar</button>
+            
+            </dialog >
+               
+            <dialog id="modal2">
+                <form action="" method="dialog">
+                Nombre: <input type="text"> <br>
+                Apellido: <input type="text"> <br>
+                Direccion : <input type="text"> <br>
+                C.I. / NIT : <input type="text" > <br>
+                Telefono : <input type="number" name="" id=""> <br>
+                Correo : <input type="text"> <br>
+                Contraseña: <input type="text"> <br>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="cancelar" id="cerrar">
+                </form>
+            </dialog>
+        
+        </div>
+        
+    </body>
+</html>
